@@ -13,7 +13,7 @@ body {
     /* start header */ 
 
     .header .slider {
-        background-image: url('../digistart-html-css-master/Aa.png');
+        background-image: url('.//images/image_principle.jpg');
         background-size: cover;
 
         height: 600px;
@@ -27,8 +27,9 @@ body {
         margin: 0 auto;
         font-size: 50px;
         width: 600px;
-        border-top: 4px solid #fff;
-        border-bottom: 4px solid #fff;
+        color: #191E22;
+        border-top: 4px solid rgb(179, 148, 169);
+        border-bottom: 4px solid rgb(238, 209, 209);
         padding: 5px 0;
     }
     .header .slider .intro button {
@@ -38,7 +39,7 @@ body {
         border-top: 2px solid #fff;
         font-weight: bold;
         padding: 10px 30px;
-        color: #fff;
+        color: #191E22;
     }
     .header .navbar {
         background-color: #252f31;
@@ -363,7 +364,7 @@ body {
         margin-bottom: 15px;
     }
     .portfolio .our-work > div img {
-        width: 92%;
+        width: 92%; /*92%*/
         margin: 10px; 
         padding: 3px;
         background-color: #fff;
